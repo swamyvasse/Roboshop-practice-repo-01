@@ -27,7 +27,7 @@
         state: started
         enabled: 'yes'
 
-    - name: create rabbitmq roboshop user
+    - name: create rabbitmq user
       ansible.builtin.command: rabbitmqctl add_user roboshop roboshop123
     
     - name: Setup Permissions
